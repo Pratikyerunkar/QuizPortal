@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Quiz Portal</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <div id="quiz" class="quiz-container">
+
+    <div class="quiz-header">
+      <h1 id="Title">Quiz Portal</h1>
+      <div id="timer">
+          <h4>Timer: </h4>
+          <h4 id="time">00</h4>
+      </div>
+      <hr>
+      <h2 id="question">Question text</h2>
+      <ul>
+        <li>
+          <input id="a" class="answer" type="radio" name="answer">
+          <label for="a" id="a_text">Answer</label>
+        </li>
+
+        <li>
+          <input id="b" class="answer" type="radio" name="answer">
+          <label for="b" id="b_text">Answer</label>
+        </li>
+
+        <li>
+          <input id="c" class="answer" type="radio" name="answer">
+          <label for="c" id="c_text">Answer</label>
+        </li>
+
+        <li>
+          <input id="d" class="answer" type="radio" name="answer">
+          <label for="d" id="d_text">Answer</label>
+        </li>
+      </ul>
+    </div>
+    <button id="submit" type="button" name="button">Submit</button>
+    <button id="reload" type="button" name="button" value="Reload" onclick="location.reload()">
+    <button id="next" type="button" name="button">Next</button>
+
+  </div>
+
+  <script type="text/javascript" src="script.js"></script>
+</body>
+
+</html>

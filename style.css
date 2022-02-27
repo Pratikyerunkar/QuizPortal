@@ -1,0 +1,129 @@
+body{
+  background-color: #9ADCFF;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+
+}
+
+.quiz-container{
+  background-color: #fff;
+  border-radius: 5px;
+  width: 500px;
+}
+
+.quiz-header{
+  padding: 2rem 2.5rem 0;
+}
+
+#quiz .quiz-header #Title{
+  margin: 0;
+  display: inline-flex;
+  flex-direction: row;
+  position: absolute;
+}
+#quiz .quiz-header #timer{
+  height: 30px;
+  width: 80px;
+  display: flex;
+  flex-direction: row;
+  background-color: #95CD41;
+  color: #000;
+  border: 1px solid #357C3C;
+  border-radius: 5px;
+  font-size: 15px;
+  place-items: center;
+  padding: 0 4px 0 10px;
+  margin: 0 0 20px;
+  user-select: none;
+  margin-left: 20em;
+}
+
+#quiz .quiz-header #timer #time{
+  height: 44px;
+  width: 50px;
+  display: flex;
+  place-items: center;
+  margin: 0 7px;
+  user-select: none;
+
+}
+
+hr{
+  margin-bottom: 20px;
+  opacity: 0.4;
+
+}
+
+h2{
+  text-align: center;
+  margin: 0;
+  font-size: 1.5em;
+  user-select: none;
+}
+
+ul{
+  list-style: none;
+  padding: 0;
+  user-select: none;
+
+}
+ul li{
+  font-size: 1rem;
+  margin: 20px 0;
+}
+
+ul li label{
+  font-size: 1.2em;
+  cursor:pointer;
+}
+ul li label:hover{
+   font-size: 1.1rem;
+}
+
+button#submit{
+  color:#fff;
+  background-color: #76BB03;
+  width: 30%;
+  margin:0 20px 20px 80px;
+  padding: 7px 0;
+  border: 1px solid #357C3C;
+  border-radius: 5px;
+  font-size: 1.1rem;
+  opacity: 0.8;
+  flex-direction: row;
+  user-select: none;
+}
+
+button#reload{
+  color: #fff;
+  background-color: #00B4D8;
+  width: 30%;
+  margin : 20px 180px;
+  padding: 7px 0;
+  border : 1px solid #03045E;
+  border-radius: 5px;
+  font-size: 1.1rem;
+  opacity: 0.8;
+  display: none;
+  user-select: none;
+}
+
+button#next{
+  color: #fff;
+  background-color: #00B4D8;
+  width: 30%;
+  padding: 7px 0;
+  border : 1px solid #03045E;
+  border-radius: 5px;
+  font-size: 1.1rem;
+  opacity: 0.8;
+  user-select: none;
+}
+
+button#submit:hover, button#next:hover, button#reload:hover{
+  opacity:1;
+  font-size: 1.2rem;
+}
